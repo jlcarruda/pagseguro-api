@@ -65,6 +65,10 @@ class Pagseguro {
     return this;
   }
 
+  setMode(mode) {
+    this.mode = mode
+    return this;
+  }
 
   setRedirectURL(url) {
     this.requestObj.redirectURL = url
